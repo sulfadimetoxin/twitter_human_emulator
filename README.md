@@ -7,6 +7,7 @@ A Python app that emulates a human interacting with Twitter: scrapes feed, analy
 1. Clone the repo
 2. Install dependencies:
    ```bash
+   poetry lock
    poetry install
    poetry run playwright install
    ```
@@ -32,6 +33,7 @@ A Python app that emulates a human interacting with Twitter: scrapes feed, analy
    - `OPENAI_API_KEY`
 3. Running the Script
    ```bash
+   poetry lock
    docker-compose up -d
    ```
 
