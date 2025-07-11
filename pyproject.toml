@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "twitter-human-emulator"
+version = "0.1.0"
+description = "A Python app that emulates a human interacting with Twitter using Playwright, OpenAI, and PostgreSQL."
+authors = ["Your Name <your.email@example.com>"]
+packages = [
+    { include = "twitter_bot" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+playwright = "*"
+psycopg2-binary = "*"
+openai = "*"
+python-dotenv = "*"
+sqlalchemy = "*"
+asyncpg = "*"
+playwright-stealth = "*"
+setuptools = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
