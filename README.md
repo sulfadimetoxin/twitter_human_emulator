@@ -9,7 +9,7 @@ A Python app that emulates a human interacting with Twitter: scrapes feed, analy
    ```bash
    poetry lock
    poetry install
-   poetry run playwright install
+   poetry run playwright install --with-deps
    ```
 3. Set environment variables:
    - `TWITTER_USERNAME`
